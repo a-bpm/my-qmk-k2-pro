@@ -16,10 +16,15 @@
 
 #pragma once
 
+/* rgb lights */
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
+#define RGBLIGHT_DEFAULT_HUE 0
+#define RGBLIGHT_DEFAULT_SAT 37
+#define RGBLIGHT_DEFAULT_VAL UINT8_MAX
+
 /* turn off effects when suspended */
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #define LED_DISABLE_WHEN_USB_SUSPENDED
-
 /* DIP switch for Mac/win OS switch */
 #define DIP_SWITCH_PINS \
     { A8 }

@@ -88,7 +88,7 @@ static uint8_t mode_base_table[] = {
 #endif
 
 #if !defined(RGBLIGHT_DEFAULT_VAL)
-#    define RGBLIGHT_DEFAULT_VAL RGBLIGHT_LIMIT_VAL
+#    define RGBLIGHT_DEFAULT_VAL 37
 #endif
 
 #if !defined(RGBLIGHT_DEFAULT_SPD)
